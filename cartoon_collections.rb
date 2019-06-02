@@ -3,7 +3,7 @@ array.each.with_index(1) {|name, index| puts "#{index}. #{name}"}
 end
 
 def summon_captain_planet(array)
-  array.collect do |call| 
+  array.map do |call| 
     puts call.capitalize + "!"
    end
 end
