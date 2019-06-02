@@ -1,5 +1,6 @@
 def roll_call_dwarves(array)
-array.each.with_index(1) {|name, index| puts "#{index}. #{name}"}
+array.each.with_index(1) do {|name, index| puts "#{index}. #{name}"}
+end
 end
 
 def summon_captain_planet(array)
